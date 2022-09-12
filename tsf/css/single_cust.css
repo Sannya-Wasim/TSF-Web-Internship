@@ -1,0 +1,43 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-image: -webkit-linear-gradient(135deg, #94A1EF, #A0D5F6);
+    margin: 9px;
+    padding: 10px;
+    color: rgb(27, 20, 69);
+}
+
+h1 {
+    color: rgb(27, 20, 69);
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.basic {
+    padding: 7px;
+    margin: 23px;
+    font-size: larger;
+}
+
+.acc {
+    padding: 7px;
+    margin: 23px;
+    font-size: larger;
+}
+
+.acc button {
+    margin: 23px;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
